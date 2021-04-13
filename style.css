@@ -1,0 +1,287 @@
+body{
+	margin-left:0;
+	margin-top:10px;
+	font-family: &quot;ヒラギノ角ゴ Pro W3&quot;,&quot;Hiragino Kaku Gothic Pro&quot;,&quot;メイリオ&quot;,Meiryo,Verdana,Arial,&quot;ＭＳ Ｐゴシック&quot;,sans-serif;
+	font-size:12px;
+	line-height:150%;
+}
+
+a img{border:none}
+
+.toptitle{
+	width:160px;
+	text-align:center;
+	display:block;
+	margin:0 auto 10px;
+	font-size:22px;
+}
+
+
+/*トップメニュー*/
+.topmenu{
+	width:950px;
+	list-style:none;
+	margin:0 auto;
+}
+
+.topmenu li{
+	margin-bottom:10px;
+}
+
+
+h1{
+	width:950px;
+	height:80px;
+	margin:0 auto;
+}
+
+#menu{
+	margin-bottom:5px;
+	width:950px;
+	margin:5px auto;
+	background:url(image/menu_bg.jpg);
+}
+
+p{
+	display:block;
+	width:950px;
+	margin:0px auto;
+	text-align:right;
+	color:#F00;
+	font-weight:bold;
+}
+
+#menu ul{
+	list-style:none;
+	margin:0 auto;
+	padding:0;
+	width:750px;
+}
+
+
+#menu li{
+	margin:0;
+	list-style:none;
+	width:120px;
+	height:30px;
+	display:block;
+	float:left;
+}
+
+#menu li a{
+	display:block;
+	height:30px;
+	position:relative;
+	overflow: hidden;
+}
+
+
+.menu1 a{background:url(image/menu01_on.jpg) left top no-repeat;position: relative;}
+.menu1 a:hover img{position: relative;top: -30px;}
+.menu2 a{background:url(image/menu02_on.jpg) left top no-repeat;position: relative;}
+.menu2 a:hover img{position: relative;top: -30px;}
+.menu3 a{background:url(image/menu03_on.jpg) left top no-repeat;position: relative;}
+.menu3 a:hover img{position: relative;top: -30px;}
+.menu4 a{background:url(image/menu04_on.jpg) left top no-repeat;position: relative;}
+.menu4 a:hover img{position: relative;top: -30px;}
+.menu5 a{background:url(image/menu05_on.jpg) left top no-repeat;position: relative;}
+.menu5 a:hover img{position: relative;top: -30px;}
+.menu6 a{background:url(image/menu06_on.jpg) left top no-repeat;position: relative;}
+.menu6 a:hover img{position: relative;top: -30px;}
+
+/*アニメ・映画*/
+#main{
+	clear:both;
+	width:950px;
+	margin:0 auto;
+}
+
+#main ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#main2{
+	clear:both;
+	width:760px;
+	margin:0 auto;
+}
+
+#main2 ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.subtitle1{background:#FC3;font-weight:bold;}
+.subtitle2{background:#ffe6a1;}
+
+
+.list1{
+	display:block;
+	float:left;
+	width:190px;
+	margin:0;
+	border-top:1px #039 solid;
+}
+
+.list1 li{
+	margin-top: -1px;
+	width:182px;
+	padding:3px;
+	border:1px #039 solid;
+	line-height:15px;
+}
+
+.list2{
+	display:block;
+	float:left;
+	width:190px;
+	margin:0;
+	border-top:1px #039 solid;
+}
+
+.list2 li{
+	margin-top: -1px;
+	margin-left: -1px;
+	width:183px;
+	padding:3px;
+	border:1px #039 solid;
+	line-height:15px;
+}
+
+.list3{
+	display:block;
+	float:left;
+	width:190px;
+	margin:0;
+	border-top:1px #039 solid;
+}
+
+.list3 li{
+	margin-top: -1px;
+	margin-left: -1px;
+	width:183px;
+	padding:3px;
+	border:1px #039 solid;
+	line-height:15px;
+}
+
+/*バラエティ　音楽　ドラマ*/
+#main3{
+	clear:both;
+	width:750px;
+	margin:0 auto;
+}
+
+#main3 ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.list4{
+	display:block;
+	float:left;
+	width:250px;
+	margin:0;
+	border-top:1px #039 solid;
+}
+
+.list4 li{
+	margin-top: -1px;
+	width:242px;
+	padding:3px;
+	border:1px #039 solid;
+	line-height:15px;
+}
+
+.list5{
+	display:block;
+	float:left;
+	width:250px;
+	margin:0;
+	border-top:1px #039 solid;
+}
+
+.list5 li{
+	margin-top: -1px;
+	margin-left: -1px;
+	width:243px;
+	padding:3px;
+	border:1px #039 solid;
+	line-height:15px;
+}
+
+.list6{
+	display:block;
+	float:left;
+	width:250px;
+	margin:0;
+	border-top:1px #039 solid;
+}
+
+.list6 li{
+	margin-top: -1px;
+	margin-left: -1px;
+	width:243px;
+	padding:3px;
+	border:1px #039 solid;
+	line-height:15px;
+}
+
+.titlename{
+	width:750px;
+	height:30px;
+	margin:0 auto 5px;
+}
+
+
+.borderless_top{
+	border-top:1px #039 solid !important;
+	border-left:1px #039 solid !important;
+	border-right:1px #039 solid !important;
+	border-bottom:none !important;
+	padding-bottom:3px!important;
+}
+
+.borderless_middle{
+	border-top:none !important;
+	padding-top:5px!important;
+	border-left:1px #039 solid !important;
+	border-right:1px #039 solid !important;
+	border-bottom:none !important;
+}
+
+.borderless_bottom{
+	border-top:none !important;
+	padding-top:5px!important;
+	border-left:1px #039 solid !important;
+	border-right:1px #039 solid !important;
+	border-bottom:1px #039 solid !important;
+}
+
+
+#betsu{
+	clear:both;
+	width:950px;
+	margin:10px auto;
+}
+
+#betsu ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.top{
+	padding:0;
+	width:950px;
+	height:30px;
+	margin:0 auto;
+}
+
+
+
+.margin_top10{margin-top:10px;}
